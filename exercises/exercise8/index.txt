@@ -1,0 +1,49 @@
+Exercício programa:
+    Desenvolver uma lista de compras, em que é possível adicionar e remover produtos.
+    A lista deve informar o  número total de produtos e o preço total.
+    A lista deve permitir adicionar ou remover unidades dos produtos adicionados.
+
+    Classe ShoppingList: para criar uma lista e adicionar produtos
+        Atributos:
+            - name: nome da lista
+            - itemsTotal: número total de produtos da lista
+            - containers: será uma lista, um container é a unidade da lista que agrupam produtos do mesmo tipo
+        Métodos:
+            - getName
+            - getItemsTotal
+            - totalPrice
+            - add_item: adição de items que já existem na lista devem incrementar 1 unidade no container que guarda o item
+            - remove_item
+            - getItem: retorna um valor boolean indicando se o item está na lista
+            - printList: imprime a lista
+
+    Classe Container: é a unidade de uma lista, para agrupar um ou mais produtos do mesmo tipo.
+        Atributos:
+            - product: referencia um produto  (composição)
+            - units: unidades do produto
+        Métodos:
+            - getProduct
+            - getUnits
+            - totalPrice: retorna o preço do item vezes o número de unidades
+            - increase: aumenta a quantidade do produto em 1 unidade
+            - decrease: diminui a quantidade do produto em 1 unidade, não permite se units == 1
+
+    Classe Product: são os produtos que poderão ser adicionados na lista
+        Atributos:
+            - name
+            - id
+            - price
+            - weight: peso do produto em gramas
+        Métodos:
+            - getName
+            - setName
+            - getId
+            - getPrice
+            - setPrice
+            - getWeight
+            - setWeight
+            - __str__: retorna o id do produto
+
+    Função main: 
+        Deve abrir o arquivo 'products.txt', instanciar todos os produtos e adicionar na lista.
+        Imprimir informações detalhadas da lista de compras com o produtos adicionados.

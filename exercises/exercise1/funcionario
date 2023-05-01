@@ -1,0 +1,8 @@
+Idfuncionario	int	Identificador de um funcionário
+CPF	int	CPF de um funcionário
+Nome	string	Nome completo de um funcionário
+Idade	int	Idade de um funcionário em anos
+Data_Nascimento	string	Data de nascimento de um funcionário (dia/mês/ano)
+Endereco	string	Endereço completo de um funcionário
+Num_Dependentes	int	Número de dependentes cadastrados de um funcionário
+

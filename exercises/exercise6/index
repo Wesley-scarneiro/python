@@ -1,0 +1,27 @@
+Exercício programa
+
+    Crie um programa, usando POO, que seja capaz de gerar "n" números aleatórios inteiros.
+    O programa deve ser capaz de gerar "n" números aleatórios com "x" algarismos ou casas decimais.
+    Isto é, o usuário informará a quantidade de números que deverão ser gerados e a quantidade de
+    algarismos que cada número obrigatoriamente deverá possuir.
+    Por exemplo, Gerador(100, 3) deverá gerar 100 números de 3 algarismos (intervalo [100, 1000[)
+
+    O programa deve gerar três arquivos de texto, com os seguintes conteúdos:
+        1 - O primeiro arquivo deve conter os "n" números gerados.
+        2 - O segundo arquivo deve conter o número de repetições de cada número do primeiro arquivo,
+        seguindo a seguinte sintaxe de escrita: 
+            número -> número de repetições
+        3 - O terceiro arquivo deve conter o conteúdo do primeiro arquivo sem as repetições
+    
+    Na primeira linha do primeiro e terceiro arquivo deve conter o total de números.
+    Cada número ocupará uma linha em todos os arquivos.
+    O nome dos arquivos devem seguir a seguinte sintaxe:
+        1_totalDeNumeros_numeroDeDigitos
+        2_totalDeNumeros_numeroDeDigitos
+        3_totalDeNumeros_numeroDeDigitos
+    
+    O programa deve ser capaz de gerar todos os arquivos e realizar as operações recebendo somente o 
+    total de números que serão gerados e o número de algarismos. 
+    O usuário deve somente instanciar um objeto para que o programa comece a sua execuçam, para que
+    a interação do usuário com o programa seja a mais simples possível e não seja necessário conhecer
+    as implementações internas do programa.

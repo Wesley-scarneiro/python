@@ -1,0 +1,33 @@
+Number account 123456 - SalaryAccount registered
+Number account 178945 - CheckingAccount registered
+Number account 875426 - SalaryAccount registered
+Number account 178945 is already a checking-account
+Number account 875426 updated for checking-account
+Deposit of R$ 5000.0 made successfully in the account 875426
+Investiment of R$ 100.0 made successfully in the account 875426
+Printing the transactions of customer 875426:
+	2023-02-22: +R$ 5000.0
+	2023-02-22: ^R$ 100.0
+
+Deposit of R$ 1000.0 made successfully in the account 123456
+Transfer of R$ 200.0 received successfully in the account 178945
+Transfer of R$ 200 of the account 123456 for 178945 made successfully
+Printing the transactions of customer 123456:
+	2023-02-22: +R$ 1000.0
+	2023-02-22: -R$ 200.0
+
+Deposit of R$ 1000.0 made successfully in the account 178945
+Investiment of R$ 200.0 made successfully in the account 178945
+Withdraw of R$ 500.0 made successfully in the account 178945
+Printing the transactions of customer 178945:
+	2023-02-22: +R$ 200.0
+	2023-02-22: +R$ 1000.0
+	2023-02-22: ^R$ 200.0
+	2023-02-22: -R$ 500.0
+
+Number account 123548 not exist for be removed
+Number account 875426 removed
+2 clients registered:
+	123456	client1
+	178945	client2
+

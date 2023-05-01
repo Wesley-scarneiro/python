@@ -1,0 +1,154 @@
+Exercício Programa (EP) - Usando exceções na prática
+
+    Crie um programa que converta arquivos .csv em excel.
+    Os arquivos em .csv estarão na codificação UTF-8 e com separador ';'.
+    O programa deve possuir uma interface para que o usuário consiga realizar as seguintes operações:
+        - Informar o diretório que contém os arquivos .csv a serem convertidos
+        - Listar os arquivos .csv lidos: informando nome do arquivo
+        - Informar se deseja converter todos os arquivos .csv lidos ou um arquivo específico
+
+    Os arquivos convertidos para .csv deverão ser colocados em uma nova pasta.
+    Situações em que possam ocorrer exceções deverão ser tratadas corretamente.
+
+    Interface:
+        
+        1. Quando o programa for iniciado, é necessário informar o diretório que contém
+            os arquivos .csv que serão lidos.
+        2. A opção '1' listará todos os arquivos .csv lidos no diretório informado.
+        3. A opção '2' converte todos os arquivos .csv lidos para .xlsx,
+            a pasta que conterá os arquivos .xlsx se chamará 'xlsx'. 
+            Após isso, o programa encerra.
+        4. A opção '3' converterá um arquivo por vez, de acordo com o índice informado.
+            Os arquivos são salvos sempre na mesma pasta.
+            Ao converter um arquivo, retornará a lista de arquivos .csv que ainda faltam ser convertidos.
+            Quando não houver mais arquivos para serem convertidos o programa se encerra. 
+
+Testes:
+
+    Option 1:
+        Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+            exit - To quit
+            1 - List all .csv files read
+            2 - Convert all read .csv files
+            3 - Convert a read .csv files
+            :1
+                0 - municipios.csv
+                1 - 2023_Receitas.csv
+                2 - 2023_OrcamentoDespesa.csv
+
+            exit - To quit
+            1 - List all .csv files read
+            2 - Convert all read .csv files
+            3 - Convert a read .csv files
+            :3
+        Closed program
+
+    Option 2:
+        Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+        exit - To quit
+        1 - List all .csv files read
+        2 - Convert all read .csv files
+        3 - Convert a read .csv files
+        :2
+            processing...
+            finished
+        Closed program
+
+    Option 3:
+        Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+            exit - To quit
+            1 - List all .csv files read
+            2 - Convert all read .csv files
+            3 - Convert a read .csv files
+            :3
+                0 - municipios.csv
+                1 - 2023_Receitas.csv
+                2 - 2023_OrcamentoDespesa.csv
+
+            file index or 'exit': 0
+            processing...
+            fineshed
+                0 - 2023_Receitas.csv
+                1 - 2023_OrcamentoDespesa.csv
+
+            file index or 'exit': 1
+            processing...
+            fineshed
+                0 - 2023_Receitas.csv
+
+            file index or 'exit': 0
+            processing...
+            fineshed
+        Closed program
+
+Erros:
+
+    Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+        exit - To quit
+        1 - List all .csv files read
+        2 - Convert all read .csv files
+        3 - Convert a read .csv files
+        :2
+            processing...
+            The directory '/home/wesley/Área de Trabalho/python/exercises/exercise5/files/xlsx' already exist and not can create
+            Error during conversion
+            finished
+    Closed program
+
+    Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+        exit - To quit
+        1 - List all .csv files read
+        2 - Convert all read .csv files
+        3 - Convert a read .csv files
+        :3
+            The directory '/home/wesley/Área de Trabalho/python/exercises/exercise5/files/xlsx' already exist and not can create
+            0 - municipios.csv
+            1 - 2023_Receitas.csv
+            2 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': 0
+            processing...
+            Error during conversion
+            fineshed
+            0 - 2023_Receitas.csv
+            1 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': exit
+    Closed program
+
+    Directory path: /home/wesley/Área de Trabalho/python/exercises/exercise5/files
+        exit - To quit
+        1 - List all .csv files read
+        2 - Convert all read .csv files
+        3 - Convert a read .csv files
+        :3
+            0 - municipios.csv
+            1 - 2023_Receitas.csv
+            2 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': -1
+        Invalid index
+            0 - municipios.csv
+            1 - 2023_Receitas.csv
+            2 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': 100
+        Invalid index
+            0 - municipios.csv
+            1 - 2023_Receitas.csv
+            2 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': asdfasdf
+        Invalid index
+            0 - municipios.csv
+            1 - 2023_Receitas.csv
+            2 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': 0
+        processing...
+        fineshed
+            0 - 2023_Receitas.csv
+            1 - 2023_OrcamentoDespesa.csv
+
+        file index or 'exit': exit
+    Closed program

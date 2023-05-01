@@ -1,0 +1,31 @@
+Exercício Programa (EP) - Praticando conceitos de orientação a objetos em Python
+
+    Crie um programa que simule o gerenciamento das contas de um banco, utilizando programação orientada a objetos (POO).
+    As seguintes classes deverão ser criadas:
+        - Bank: representa um banco
+            Atributos: 
+                * Nome do banco
+                * Total de clientes registrados
+                * Lista dos clientes registrados: será um dicionário numeroDaConta (key) --> referenciaDoObjeto (value)
+            Métodos:
+                * Registrar clientes
+                * Cacelamento de conta dos clientes
+                * Upgrade de conta dos clientes
+                * Saldo total do banco
+
+        - SalaryAccount: conta salário do banco, com serviços básicos.
+            Atributos:
+                * Nome
+                * Número da conta
+                * Saldo
+                * Histórico de transações
+            Métodos:
+                * Realizar depósito
+                * Realizar saque
+                * Realizar transferência
+
+        - CheckingAccount: conta corrente do banco, com serviços básicos e especializados.
+            Atributos:
+                * Saldo em investimentos
+            Métodos:
+                * Realizar investimentos

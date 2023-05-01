@@ -1,0 +1,5 @@
+IdDependente	int	Identificador de um dependente
+IdFuncionario	int 	Chave estrangeira para um funcionário
+Nome	string	Nome completo de um funcionário
+Idade	int	Idade de um dependente em anos
+Data_Nasc	string	Data de nascimento de um dependente(dia/mês/ano) 
