@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-7.3.1, pluggy-1.0.0
+rootdir: /home/wesley/Área de Trabalho/python/byteBank-tdd
+configfile: pytest.ini
+plugins: cov-4.0.0
+collected 9 items
+
+tests/test_bytebank.py .........                                         [100%]
+
+---------- coverage: platform linux, python 3.10.6-final-0 -----------
+Name                Stmts   Miss  Cover   Missing
+-------------------------------------------------
+codes/bytebank.py      28      0   100%
+-------------------------------------------------
+TOTAL                  28      0   100%
+
+
+============================== 9 passed in 0.08s ===============================

@@ -1,0 +1,18 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-7.3.1, pluggy-1.0.0
+rootdir: /home/wesley/Área de Trabalho/python/byteBank-tdd
+collected 8 items
+
+tests/test_bytebank.py ........                                          [100%]
+
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/test_bytebank.py::TestClass::test_idade_13_03_2000_igual_22
+PASSED tests/test_bytebank.py::TestClass::test_nome_wesley_silva_carneiro_igual_wesley
+PASSED tests/test_bytebank.py::TestClass::test_sobrenome_wesley_silva_carneiro_igual_silva_carneiro
+PASSED tests/test_bytebank.py::TestClass::test_reduzir_salario_100000_diretor_retorna_90000
+PASSED tests/test_bytebank.py::TestClass::test_reduzir_salario_100000_nao_diretor_retorna_None
+PASSED tests/test_bytebank.py::TestClass::test_calcular_bonus_1000_retorna_100
+PASSED tests/test_bytebank.py::TestClass::test_calcular_bonus_11000_retorna_exception
+PASSED tests/test_bytebank.py::TestClass::test_calcular_bonus_11000_retorna_exception2
+============================== 8 passed in 0.03s ===============================
