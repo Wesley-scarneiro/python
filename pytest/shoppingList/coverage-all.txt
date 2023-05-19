@@ -1,0 +1,12 @@
+Name                             Stmts   Miss  Cover
+----------------------------------------------------
+codes/__init__.py                    0      0   100%
+codes/container.py                  20      0   100%
+codes/product.py                    30      0   100%
+codes/shoppingList.py               58      5    91%
+tests/__init__.py                    0      0   100%
+tests/test_unitContainer.py         58      0   100%
+tests/test_unitProduct.py           46      0   100%
+tests/test_unitShoppingList.py      91      7    92%
+----------------------------------------------------
+TOTAL                              303     12    96%

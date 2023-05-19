@@ -1,0 +1,15 @@
+0001	Arroz Solimões	1000	15.99
+0002	Arroz Anãozinho	1000	14.50
+0003	Arroz Salvação	1000	19.99
+0004	Feijão Dubom	500	8.49
+0005	Feijão Maranhão	450	6.99
+0006	Feijão Saborbão	500	11.99
+0008	Macarrão Espaguete	200	4.99
+0009	Macarrão Parafuso	300	4.99
+0010	Miojo Caipirinha	100	0.99
+0010	Leite Vida Curta	1000	4.49
+0011	Refrigerante Cola	1000	8.30
+0012	Aveia em flocos	400	3.99
+0013	Shampoo Lava Tudo	1000	7.99 
+0014	Sabonete Bãozaum	20	1.99
+0015	Papel Higiênico	100	2.49

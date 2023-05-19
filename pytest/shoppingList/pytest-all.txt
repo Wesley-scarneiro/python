@@ -1,0 +1,44 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.6, pytest-7.3.1, pluggy-1.0.0 -- /home/wesley/Área de Trabalho/Github/pytest/shoppingList/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/wesley/Área de Trabalho/Github/pytest/shoppingList
+collecting ... collected 36 items
+
+tests/test_unitContainer.py::TestUnitContainer::test_getProduct_type_product PASSED [  2%]
+tests/test_unitContainer.py::TestUnitContainer::test_units_1_1 PASSED    [  5%]
+tests/test_unitContainer.py::TestUnitContainer::test_totalPrice_99_9 PASSED [  8%]
+tests/test_unitContainer.py::TestUnitContainer::test_increase_1_2 PASSED [ 11%]
+tests/test_unitContainer.py::TestUnitContainer::test_increase_100_101 PASSED [ 13%]
+tests/test_unitContainer.py::TestUnitContainer::test_decrease_1_1 PASSED [ 16%]
+tests/test_unitContainer.py::TestUnitContainer::test_decrease_1_3 PASSED [ 19%]
+tests/test_unitContainer.py::TestUnitContainer::test_decrease_3_1 PASSED [ 22%]
+tests/test_unitContainer.py::TestUnitContainer::test_raise_exception_AttributeError PASSED [ 25%]
+tests/test_unitProduct.py::TestUnitProduct::test_str_id_12542 PASSED     [ 27%]
+tests/test_unitProduct.py::TestUnitProduct::test_getName_feijao PASSED   [ 30%]
+tests/test_unitProduct.py::TestUnitProduct::test_setName_feijaoA_feijaoB PASSED [ 33%]
+tests/test_unitProduct.py::TestUnitProduct::test_getId_1111 PASSED       [ 36%]
+tests/test_unitProduct.py::TestUnitProduct::test_getPrice_10 PASSED      [ 38%]
+tests/test_unitProduct.py::TestUnitProduct::test_setPrice_10_12 PASSED   [ 41%]
+tests/test_unitProduct.py::TestUnitProduct::test_getWeight_5 PASSED      [ 44%]
+tests/test_unitProduct.py::TestUnitProduct::test_setWeight_5_4 PASSED    [ 47%]
+tests/test_unitShoppingList.py::TestShoppingList::test_name_Shopping_month PASSED [ 50%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_items_zero PASSED [ 52%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_products_zero PASSED [ 55%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_price_zero PASSED [ 58%]
+tests/test_unitShoppingList.py::TestShoppingList::test_add_products_one PASSED [ 61%]
+tests/test_unitShoppingList.py::TestShoppingList::test_add_products_three PASSED [ 63%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_items_three PASSED [ 66%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_price_three_products PASSED [ 69%]
+tests/test_unitShoppingList.py::TestShoppingList::test_add_products_one_hundred PASSED [ 72%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_items_one_hundred PASSED [ 75%]
+tests/test_unitShoppingList.py::TestShoppingList::test_getItem_product_1327 PASSED [ 77%]
+tests/test_unitShoppingList.py::TestShoppingList::test_getItem_product_none PASSED [ 80%]
+tests/test_unitShoppingList.py::TestShoppingList::test_remove_products_one_hundred PASSED [ 83%]
+tests/test_unitShoppingList.py::TestShoppingList::test_remove_products_doesnot_exist PASSED [ 86%]
+tests/test_unitShoppingList.py::TestShoppingList::test_total_items_3_after_remove_one_hundred PASSED [ 88%]
+tests/test_unitShoppingList.py::TestShoppingList::test_add_item_existing_product_1111 PASSED [ 91%]
+tests/test_unitShoppingList.py::TestShoppingList::test_exception_typeError_add_item PASSED [ 94%]
+tests/test_unitShoppingList.py::TestShoppingList::test_exception_typeError_getItem PASSED [ 97%]
+tests/test_unitShoppingList.py::TestShoppingList::test_exception_typeError_remove_item PASSED [100%]
+
+============================== 36 passed in 0.09s ==============================

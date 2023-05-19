@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"name": "testes_sites",
+			"path": "../../../../testes_sites"
+		},
+		{
+			"name": "javascript",
+			"path": "../../../../javascript"
+		},
+		{
+			"name": "compare",
+			"path": "../../../../python/compare"
+		},
+		{
+			"name": "projetos",
+			"path": "../../../../python/projetos"
+		},
+		{
+			"name": "server",
+			"path": "../../../../python/server"
+		},
+		{
+			"name": "exercises",
+			"path": "../../../../python/exercises"
+		},
+		{
+			"path": "../../../../python/byteBank-tdd"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../USP - 2023/SD/sd-ep1"
+		}
+	],
+	"settings": {}
+}
